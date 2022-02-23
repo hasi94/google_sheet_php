@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/apiclient": "^2.12",
+        "jenssegers/blade": "^1.4"
+    }
+}
