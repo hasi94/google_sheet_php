@@ -18,7 +18,7 @@ class sheetService
     {
         $this->client = $this->getClient();
         $this->services = new Sheets($this->client);
-        $this->documentId ='1C53qBSCRC1MLvno9C3aPMDz8BU0R9F3h41RlzA7R-4I';
+        $this->documentId ='1C53qBSCRC1MLvno9C3aPMDz8BU0R9F3h41RlzA7R-4I'; // past your googlesheet iD
         $this->range = 'A:Z';
 
     }
