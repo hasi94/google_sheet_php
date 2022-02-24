@@ -28,4 +28,4 @@ composer require google/apiclient
 composer require jenssegers/blade
 ```
 
-##Step 3: Enjoy ! 
+##Step 4: Enjoy ! 
