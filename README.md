@@ -13,14 +13,16 @@ add service account email to google sheet you want with editor/owner permission
 
 get your google sheet ID and paste it inside services->sheetService.php $this->documentId
 
-
-
-##Step 1: Install the Google Client Library
+##Step 1: goto .htaccess file and rename google_sheet with your root folder name 
+```bash
+RewriteRule ^(.+)$ YOUR FOLDER NAME/index.php [QSA,L]
+```
+##Step 2: Install the Google Client Library
 ```bash
 composer require google/apiclient
 ```
 
-##Step 2: Install the Blade
+##Step 3: Install the Blade
 
 ```bash
 composer require jenssegers/blade
